@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <nav>Nav</nav>
+<div class="div">
+    <header>Header</header>
+    <main>
+        <article>Article</article>
+        <aside>Aside</aside>
+    </main>
+    <footer>Footer</footer>
+</div>
+</body>
+</html>
+
+<!-----css>
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+nav {
+    background-color: pink;
+    height: 100vh;
+    width: 20%;
+}
+
+header {
+    background-color: bisque;
+    height: 15%;
+    width: 1230px;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    background-color: aqua;
+    flex: 1;
+}
+
+footer {
+    background-color: bisque;
+    height: 15vh;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
